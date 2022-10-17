@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T13:06:35 IST" name="Default suite" finished-at="2022-10-14T13:09:20 IST" duration-ms="164191">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateOrganizationTestNG.createOrganizationTestNG()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" name="createOrganizationTestNG" class="testNG.CreateOrganizationTestNG"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-10-14T13:06:35 IST" name="Default test" finished-at="2022-10-14T13:09:20 IST" duration-ms="164191">
+      <class name="testNG.CreateOrganizationTestNG">
+        <test-method is-config="true" signature="BS()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:06:35 IST" name="BS" finished-at="2022-10-14T13:06:35 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:06:35 IST" name="BT" finished-at="2022-10-14T13:06:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:06:35 IST" name="BC" finished-at="2022-10-14T13:07:02 IST" duration-ms="26985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:07:02 IST" name="BM" finished-at="2022-10-14T13:09:19 IST" duration-ms="136796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="createOrganizationTestNG()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:09:19 IST" name="createOrganizationTestNG" finished-at="2022-10-14T13:09:19 IST" duration-ms="209" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[ipathConstant.ExcelFilePath (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: ipathConstant.ExcelFilePath (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+at com.crm.Generic_Utilities.Excel_Utility.getDataFromExcel(Excel_Utility.java:30)
+at testNG.CreateOrganizationTestNG.createOrganizationTestNG(CreateOrganizationTestNG.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTestNG -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:09:20 IST" name="AM" finished-at="2022-10-14T13:09:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:09:20 IST" name="AC" finished-at="2022-10-14T13:09:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:09:20 IST" name="AT" finished-at="2022-10-14T13:09:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:testNG.CreateOrganizationTestNG@3a44431a]" started-at="2022-10-14T13:09:20 IST" name="AS" finished-at="2022-10-14T13:09:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- testNG.CreateOrganizationTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
